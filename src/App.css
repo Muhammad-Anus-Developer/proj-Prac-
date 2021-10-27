@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');body{
+  overflow-x: hidden;
+}
+.App {
+  text-align: center;
+}
+/* button */
+.spread-distance-box-shadow {
+  box-shadow: 0 0 10px 5px;
+  border: none;
+  border-radius: 50px;
+}
+.box {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  background-color: #ced7ef;
+  color: rgba(128, 128, 128, 0.253);
+  vertical-align: middle;
+}
+.size{
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* rOUTINE */
+
+.wid{
+  width: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 3%;
+}
+.wids{
+  color:white; 
+  font-size: 150%;
+  float: left ; 
+  margin: 4% 1% ;
+ margin-left: 1%;
+ cursor: pointer;
+}
+.back2{
+  background-image: url("../src/images/skylines.png");
+  background-size: cover;
+  height: 100vh;
+  background-position: 50%;
+}
+.back3{
+  background-image: url("../src/images/skylines.png");
+  background-size: cover;
+  height: 105vh;
+  background-position: 50%;
+}
+.back4{
+  background-image: url("../src/images/skylines.png");
+  background-size: cover;
+  height: 150vh;
+  background-position: 50%;
+}
+.mar{
+  margin-left: 9%;
+}
+/* insp */
+
+
+.cla{
+ color: #c9ada7;
+ margin-right: 39% ; 
+ padding-bottom: 1%;
+}
+.clas1{
+  margin-right: 40%;
+  padding-bottom: 1%;
+}
+.clas3{
+  margin-right: 30%;
+  padding-bottom: 1%;
+}
+.clas2{
+  margin-right: 62%; 
+  padding-bottom: 1% ; 
+}
+.clas4{
+  margin-right: 54%; 
+  padding-bottom: 1% ; 
+}
+.clas5{
+  margin-right: 58%; 
+  padding-bottom: 1% ; 
+}
+.clas6{
+  margin-right: 45%; 
+  padding-bottom: 1% ; 
+}
+.clas7{
+  margin-right: 49%; 
+  padding-bottom: 1% ; 
+}
+
+
+/* dashboard */
+.font{
+  font-family: 'Poppins', sans-serif;}
+.back{
+  background-image: url("../src/images/skylines.png");
+  background-position: 2% ;
+  background-size: cover;
+}
+.icon{
+  color:white;
+  background-color: red;
+  padding:5px;
+  font-size:25px;
+  border-radius:50px;
+  margin-right:10px; 
+  padding-right:5px;
+}
+.grad {
+  background-image: linear-gradient(to right, #aa2719 , #aa2819e8,#aa2719);
+  /* background-color: #C03221; */
+}
+.avatar {
+  margin-right: 12%;
+	width: 80px;
+	height: 80px;
+  border-radius: 50px; 
+  /* margin: 10px; */
+}
+.flex-container {
+  display: flex;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.ic{
+	display: inline-block;
+	width: 20px;	
+	height: 20px;	
+	font-size: 20px;
+	
+	vertical-align: top;
+	margin-top: calc((1.7 * 20px - 20px)/ 2);	
+	margin-right: 30px;		
+	position: relative;
+}
+.ic.outline{
+  outline: solid 1px blue;
+}
+
+
+.ic.circle{
+	border-radius: 100%;
+	background-color: #FF5252;
+}
+
+
+.d-table {
+  display:table;
+}
+
+.d-table-cell {
+  display:table-cell;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.tar {
+  text-align: right;
+}
+
+/* login */
+.inpFoc{
+  border: 1px solid #d8e2dc;
+  width: 70%;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;  
+}
+.inpFoc:focus {
+  border: 1px solid #6b705c;
+}
+.link_style{
+  color: brown;
+  text-decoration: none;
+}
+.link_style:hover{
+  text-decoration: underline;
+  color: brown;
+}
+.backgroundImg{
+  background-image: url("./images/skylines.png"),
+    url("./images/backLogin.png")
+  ;
+  background-size: cover;
+  background-position: right 50% bottom 0%;
+}
+.secback{
+  background-image: url("./images/graphic.png");
+  background-size: cover;
+ 
+}
+
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .mar{
+    padding-top: 10%;
+  }
+  .sizes{
+    margin-top: 5%;
+    font-size: 13px;
+  }
+  .hid{
+    margin-left: 20%;
+  }
+  .wid{
+    width: 40%;
+    margin: 2%;
+  }
+  .wids{
+    color:white; 
+    font-size: 150%;
+    float: left ; 
+    margin-top: 7.5% ;
+   margin-left: 3%;
+   cursor: pointer;
+
+  }
+  .cla{
+    margin-right: 0;
+  }
+  .clas1{
+    margin-right: 0%;
+  }
+  .clas3{
+    margin-right: 0%;
+  }
+  .clas2{
+    margin-right: 0%;
+  }
+  .clas4{
+    margin-right: 0%;
+  }
+  .clas5{
+    margin-right: 0%;
+  }
+  .clas6{
+    margin-right: 0%;
+  }
+  .clas7{
+    margin-right: 0%;
+  }
+  .back3{
+    height: 125vh;
+  }
+  .mar{
+    margin-left: 17%;
+    /* margin-right: 55%; */
+  }
+
+}
+@media only screen and (max-width: 800px) {
+  .mar{
+    padding-top: 20%;
+  }
+  .sizes{
+    margin-top: 5%;
+    font-size: 13px;
+  }
+  .hid{
+    margin-left: 20%;
+  }
+  .wid{
+    width: 45%;
+    margin: 2%;
+  }
+  .wids{
+    color:white; 
+    font-size: 150%;
+    float: left ; 
+    margin-top: 7.5% ;
+   margin-left: 3%;
+   cursor: pointer;
+
+  }
+  .cla{
+    margin-right: 0;
+  }
+  .clas1{
+    margin-right: 0;
+  }
+  .clas3{
+    margin-right: 0;
+  }
+  .clas2{
+    margin-right: 0;
+  }
+  .clas4{
+    margin-right: 0;
+  }
+  .clas5{
+    margin-right: 0;
+  }
+  .clas6{
+    margin-right: 0;
+  }
+  .clas7{
+    margin-right: 0;
+  }
+  .back3{
+    height: 125vh;
+  }
+  .mar{
+    margin-left: 17%;
+    /* margin-right: 55%; */
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .size{
+    font-size: 9px;
+  }
+  .size1{
+    font-size: 13px;
+    padding-left: 5%;
+  }
+  .sizes{
+    font-size: 13px;
+  }
+  .wid{
+    width: 45%;
+    margin: 2%;
+  }
+  .wids{
+    color:white; 
+    font-size: 5vw;
+    float: left ; 
+    margin-top: 9% ;
+   margin-left: 3%;
+   cursor: pointer;
+
+  }
+  .cla{
+    /* margin-right: s20%; */
+    margin-right: 0%;
+  }
+  .clas1{
+    /* margin-right: 20%; */
+    margin-right: 0%;
+  }
+  .clas3{
+    /* margin-right: 6%; */
+    margin-right: 0%;
+  }
+  .clas4{
+    /* margin-right: 6%; */
+    margin-right: 0%;
+  }
+  .clas2{
+    margin-right: 0%;
+    /* margin-right: 55%; */
+  }
+  .clas5{
+    margin-right: 0%;
+    /* margin-right: 55%; */
+  }
+  .clas6{
+    margin-right: 0%;
+    /* margin-right: 55%; */
+  }
+  .clas7{
+    margin-right: 0%;
+    /* margin-right: 55%; */
+  }
+ 
+}
